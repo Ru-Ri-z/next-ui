@@ -1,9 +1,11 @@
-import { title } from "@/components/primitives";
+import React from "react";
+import {Button} from "@nextui-org/button";
 
-export default function BlogPage() {
-	return (
-		<div>
-			<h1 className={title()}>Blog</h1>
-		</div>
-	);
+
+export default function App() {
+  return (
+    <div className="flex flex-wrap gap-4 items-center">
+     <h1></h1>
+    </div>
+  );
 }
